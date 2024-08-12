@@ -118,6 +118,11 @@ header{
     margin-bottom: 2rem;
 }
 
+.banner-btn{
+    display: flex;
+    gap: 2rem;
+}
+
 .badge-1{
     width: 220px;
     height: 100px;
