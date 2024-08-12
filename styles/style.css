@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
 
 body{
     font-family: "Inter", sans-serif;
@@ -107,12 +107,65 @@ header{
 }
 
 .banner-title span{
-    font-family: "Alex Brush", cursive;
+    font-family: "Arizonia", cursive;
     font-weight: 400;
+    font-size: 8rem;
 }
 
 .banner-description{
     color: #ffffff80;
     font-size: 1.2rem;
     margin-bottom: 2rem;
+}
+
+.badge-1{
+    width: 220px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -120px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ffffff80;
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
+}
+
+.badge-1 h1{
+    color: white;
+}
+.badge-1 p{
+    color: #ffffff80;
+}
+
+.badge-2{
+    width: 220px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -450px;
+    margin-left: 220px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ffffff80;
+    border-radius: 15px;
+    backdrop-filter: blur(8px); 
+}
+
+.badge-2 h1{
+    color: white;
+    font-size: 2.5rem;
+}
+.badge-2 p{
+    color: #ffffff80;
 }
