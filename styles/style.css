@@ -1,5 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
 body{
     font-family: "Inter", sans-serif;
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared  */
+.btn-primary{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
+    border: none;
+}
+
+/* Header Styles  */
+
+.nav-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo-title h1{
+    font-size: 36px;
+    font-style: italic;
+    color: #E6533C;
+    font-weight: 800;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+    padding: 4px;
+    padding-right: 20px;
+  
+}
+
+.home{
+    border-radius: 46px;
+    background-color: #E6533C;
+    padding: 8px 20px;
 }
