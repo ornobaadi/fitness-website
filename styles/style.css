@@ -4,6 +4,7 @@
 body{
     font-family: "Inter", sans-serif;
     background-color: black;
+    
 }
 
 *{
@@ -18,12 +19,29 @@ body{
     background: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
     font-size: 18px;
-    font-weight: 600;
-    padding: 16px 40px 16px 40px;
+    font-weight: 500;
+    padding: 16px 50px;
     border: none;
+    cursor: pointer;
+}
+
+.btn-secondary{
+    border-radius: 42px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 50px;
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 /* Header Styles  */
+
+header{
+    background: linear-gradient(to bottom, #000000 0%, #000000 1%, #222222 50%, #000000 98%, #000000 100%);
+    /* padding: 0 8%; */
+}
 
 .nav-container{
     width: 80%;
@@ -64,4 +82,37 @@ body{
     border-radius: 46px;
     background-color: #E6533C;
     padding: 8px 20px;
+}
+
+/* Banner Styles */
+
+.banner-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content{
+    margin-top:80px;
+    max-width: 40%;
+    /* max-height: 100%; */
+}
+
+.banner-title{
+    color: white;
+    font-size: 6rem;
+    margin-bottom: 1.5rem;
+}
+
+.banner-title span{
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+}
+
+.banner-description{
+    color: #ffffff80;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
