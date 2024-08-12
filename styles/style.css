@@ -174,3 +174,68 @@ header{
 .badge-2 p{
     color: #ffffff80;
 }
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.habit-section{
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+
+.habit-section h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+
+}
+
+.habit-section p{
+    color: #ffffff80;
+
+    font-size: 1.2rem;
+
+}
+
+.habit-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* margin: 0 auto;   */
+}
+
+.habit-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    margin-top: 0;
+}
+
+.habit-content img{
+    border-radius: 50%;
+    border: 5px solid #222222;
+}
+
+.habit-content h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.habit-content p{
+    color: #ffffff80;
+    margin: 10px;
+    max-width: 80%;
+    
+}
+
+
