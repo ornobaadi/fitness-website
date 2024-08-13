@@ -360,7 +360,8 @@ main{
 
 .bmi-chart{
     flex: 1;
-    margin-right: 150px;
+    margin-right: 100px;
+    margin-left: 180px;
     padding-left: 100px;
 }
 
@@ -391,6 +392,7 @@ main{
 
 .bmi-calculator-form{
     padding: 40px;
+    padding-left: 20px;
     min-width: 300px;
     flex: 2;
     text-align: left;
@@ -410,7 +412,7 @@ main{
 
 .bmi-calculator-form input,
 .bmi-calculator-form select {
-    width: calc(40% - 5px);
+    width: calc(38% - 5px);
     padding: 1rem;
     margin-right: 10px;
     margin-bottom: 20px;
