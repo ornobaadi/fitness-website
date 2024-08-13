@@ -239,6 +239,8 @@ main{
     
 }
 
+/* RUN  */
+
 .run-section{
     display: flex;
     gap: 200px;
@@ -276,6 +278,50 @@ main{
 .run-img img{
     border-radius: 30px;
 }
+
+/* Diet Styles */
+
+
+.diet-section{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 200px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #222222;
+    border-radius: 30px;
+    margin: 70px;
+}
+
+.diet-content{
+    /* border: 1px solid white; */
+    /* width: 50%; */
+    padding: 50px;
+}
+
+.diet-content h1{
+    color: white;
+    font-size: 3.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.diet-content p{
+    color: #ffffff80;
+    margin-bottom: 3rem;
+    width: 90%;
+}
+
+.diet-img{
+    width: 50%;
+    padding: 15px;
+}
+
+.diet-img img{
+    border-radius: 30px;
+    width: 100%;
+}
+
 
 /* BMI Calculator Styles*/
 
