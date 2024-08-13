@@ -264,7 +264,7 @@ main{
 
 .run-content p{
     color: #ffffff80;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     width: 90%;
 }
 
@@ -274,9 +274,28 @@ main{
 }
 
 .run-img img{
-    /* width: 100%; */
     border-radius: 30px;
-
-
 }
 
+/* BMI Calculator Styles*/
+
+.bmi-section{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.bmi-title{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.bmi-title h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.bmi-title p{
+    color: #ffffff80;
+}
