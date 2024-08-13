@@ -189,7 +189,6 @@ main{
     margin-top: 150px;
     margin-bottom: 100px;
     text-align: center;
-
 }
 
 .habit-section h1{
@@ -421,5 +420,86 @@ main{
     font-size: 16px;
 }
 
+/* Our Team  */
+
+.team {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.team-content {
+    max-width: 670px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.team-content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 3rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.team-content p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background: rgb(34, 34, 34);
+    border-radius: 18px;
+    width: 100%;
+}
+
+.team-trainer {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 83.33%;
+}
+
+.trainer-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.team-trainer::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+}
+
+.team-trainer h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: absolute;
+    bottom: 2.4rem;
+    left: 1.8rem;
+}
+
+.team-trainer p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 1.8rem;
+}
 
 
