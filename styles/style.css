@@ -229,11 +229,12 @@ main{
     font-size: 1.2rem;
     font-weight: 600;
     margin: 5px;
+    margin-top: 1rem;
 }
 
 .habit-content p{
     color: #ffffff80;
-    margin: 10px;
+    margin: 5px;
     max-width: 80%;
     
 }
@@ -325,7 +326,7 @@ main{
 /* BMI Calculator Styles*/
 
 .bmi-calculator-section{
-    width: 80%; 
+    width: 100%; 
     /* background-color: #000000; */
     color: white;
 
@@ -437,7 +438,7 @@ main{
 .team-content h1 {
     font-size: 3rem;
     font-weight: 900;
-    margin-top: 3rem;
+    margin-top: 5rem;
     margin-bottom: 20px;
     color: white;
 }
@@ -583,8 +584,14 @@ main{
   .footer-bottom {
     text-align: center;
     margin-top: 60px;
-    padding-top: 20px;
-    border-top: 1px solid #333;
-    font-size: 14px;
+    font-size: 1rem;
     color: #ffffff80;
+  }
+
+
+  hr {
+    width: 75%;
+    margin: 20px auto;
+    border: none;
+    border-top: 2px solid #333;
   }
