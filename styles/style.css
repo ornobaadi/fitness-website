@@ -27,7 +27,7 @@ html, body {
     background: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     padding: 16px 50px;
     border: none;
     cursor: pointer;
@@ -42,8 +42,8 @@ html, body {
     border-radius: 42px;
     background: transparent;
     color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     padding: 16px 50px;
     border: 1px solid white;
     cursor: pointer;
@@ -93,6 +93,7 @@ header{
 
 .home{
     border-radius: 46px;
+    font-weight: 700;
     background-color: #E6533C;
     padding: 8px 20px;
 }
@@ -281,7 +282,7 @@ main{
 .run-content p{
     color: #ffffff80;
     margin-bottom: 3rem;
-    width: 90%;
+    width: 70%;
 }
 
 .run-img{
@@ -428,7 +429,7 @@ main{
 
 .bmi-calculator-form input,
 .bmi-calculator-form select {
-    width: calc(45% - 5px);
+    width: calc(45% - 6px);
     padding: 1rem;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -440,7 +441,7 @@ main{
 }
 
 .bmi-calculator-form select[name="activity"] {
-    width: calc(92% - 10px);
+    width: calc(91% - 10px);
 }
 
 /* Our Team  */
@@ -717,8 +718,10 @@ main{
     }
 
     .run-content p{
-        margin: 0 auto;
-        margin-bottom: 20px;
+
+            margin: 0 auto;
+            margin-bottom: 20px;
+            width: 90%;
     }
 
     .run-img{
