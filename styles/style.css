@@ -26,11 +26,16 @@ html, body {
     border-radius: 42px;
     background: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     padding: 16px 50px;
     border: none;
     cursor: pointer;
+    white-space: no-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .btn-secondary{
@@ -106,8 +111,6 @@ header{
     margin-top:80px;
     max-width: 50%;
     
-    
-    /* max-height: 100%; */
 }
 
 .banner-title{
@@ -131,6 +134,11 @@ header{
 .banner-btn{
     display: flex;
     gap: 2rem;
+}
+
+.banner-img{
+    margin: 0 auto;
+    padding-left: 200px;
 }
 
 .badge-1{
@@ -169,7 +177,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -450px;
+    margin-top: -420px;
     margin-left: 220px;
     background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid #ffffff80;
@@ -420,7 +428,7 @@ main{
 
 .bmi-calculator-form input,
 .bmi-calculator-form select {
-    width: calc(38% - 5px);
+    width: calc(45% - 5px);
     padding: 1rem;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -429,6 +437,10 @@ main{
     background-color: #444;
     color: #fff;
     font-size: 16px;
+}
+
+.bmi-calculator-form select[name="activity"] {
+    width: calc(92% - 10px);
 }
 
 /* Our Team  */
@@ -642,7 +654,7 @@ main{
       }
 
     .banner-content {
-        max-width: 100%;
+        max-width: 80%;
         margin-top: 40px;
     }
 
@@ -656,9 +668,19 @@ main{
         margin: 0 auto;
     }
 
+    .banner-img{
+        padding-left: 0px;
+    }
+
     .badge-1{
         margin-left: 0px;
     } 
+
+    .badge-2{
+        max-width: 100%;
+        margin-top: -350px;
+        margin-left: 100px;
+    }
 
 
     .habit-section{
@@ -690,6 +712,15 @@ main{
         padding: 20px;
     }
 
+    .run-content h1{
+        font-size: 2.5rem;
+    }
+
+    .run-content p{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
     .run-img{
         width: 100%;
         padding: 0;
@@ -705,6 +736,15 @@ main{
 
     .diet-content{
         padding: 20px;
+    }
+
+    .diet-content h1{
+        font-size: 2.5rem;
+    }
+
+    .diet-content p{
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
 
     .diet-img{
@@ -743,5 +783,72 @@ main{
         font-size: 3rem;
     }
 
+    .btn-primary {
+        font-size: 14px;
+        padding: 15px 25px;
+    }
+
+    .btn-secondary {
+        font-size: 14px;
+        padding: 15px 25px;
+    }
+
+    .bmi-heading{
+    margin: 0 auto;
+    padding-left: 40px;
+    }
+
+    .bmi-heading h1{
+        margin-top: 50px;
+        font-size: 2rem;
+
+    }
+
+    .bmi-heading p{
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .bmi-calculator{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .bmi-chart {
+        flex: 1;
+        margin-right: 100px;
+        margin-left: 0px;
+        padding-left: 0;
+        padding-right: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .bmi-chart h2 {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+
+    .bmi-calculator-form{
+        margin: 42px;
+        padding: 0;
+    }
+
+    .bmi-calculator-form h2{
+        font-size: 1.2rem;
+    }
+
+    .bmi-calculator-form p {
+        color: #ffffff80;
+        font-weight: 300;
+        margin-bottom: 30px;
+        padding-right: 0px;
+    }
+
+    .bmi-calculator-form select[name="activity"] {
+        width: calc(93% - 10px);
+    }
 
 }
